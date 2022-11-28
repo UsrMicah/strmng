@@ -1,0 +1,2 @@
+# strmng
+ok
