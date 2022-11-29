@@ -126,7 +126,7 @@ void ftostr(double i, char s[]) //converts i (floating point) to a string
 }
 
 int isletter(char c) {
-	return (c >= 'a' && c <= 'z' || c >= 'A' || c <= 'Z') ? 1 : 0;
+	return ((c >= 'a' && c <= 'z') || c >= 'A' || c <= 'Z') ? 1 : 0;
 }
 
 int isuppercase(char c) {
